@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-side {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-image {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: bisque;
+ 
+}
+
+h2 {
+    color: bisque;
+  
+}
+
+.text-field {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #7867a0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+
+}
+
+.text-field>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(81, 72, 105, 1) 35%, rgba(239, 192, 80, 1) 100%);
+    color: #ffbb00de;
+    font-size: 16pt;
+    box-shadow: 0px 10px 20px #000000d5;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px;
+    transition: .7s;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 1px;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(81, 72, 105, 1) 35%, rgb(255, 255, 255) 100%);
+    color: #ffbb00de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 20px #000000d5;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px;
+    transition: .7s;
+}
+
+button:hover{
+    box-shadow: 3px 0px 20px #000000d5;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px;
+    background: #2f2840;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    font-family: 'Noto Sans', sans-serif;
+}
